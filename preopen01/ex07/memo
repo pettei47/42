@@ -1,0 +1,18 @@
+1行の要素
+ 元素名　= ポジション(族):num, 原子番号, small:元素記号, molar:原子量, election:殻ごとの電子数(スペース区切り)
+
+空のテーブルを作成する
+　└　1行×18列だけ作る
+リストを上から読み込む
+　→　ポジション=17まで、tableの列番号=ポジションになるように、tableに書き込む
+　　（列番号==position -> 書き込む　else 検証する列番号を1増やす）
+17まで着いたら、空のテーブルを作成から繰り返す
+
+<table>
+<tr>
+while col < 18
+	for name, position, number, small, moler in list
+		if position == col
+			table[col][i] = <td>[number. small, name, molar]</td>
+	col++
+i++
