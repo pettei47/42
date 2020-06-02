@@ -3,8 +3,8 @@
 
 42tokyoの2020年度 preopen期間中の課題とその成果物です。
 
-C言語で取り組んだ課題
-reloaded
+それぞれのディレクトリ内のPDFファイル（subjet.pdf)に示された課題の提出物が、
+subject内で指定されているディレクトリにあります。
 
-pythonで取り組んだ課題
-preopen01
+シェルスクリプトとC言語で取り組んだ課題：reloaded
+pythonで取り組んだ課題：preopen01
