@@ -1,0 +1,4 @@
+test/
+test*
+tmpfile/
+.DS_Store
